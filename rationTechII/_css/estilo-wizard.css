@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(#a4ff77, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+}
+
+div#boas-vindas {
+    position: relative;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+fieldset#field-wizar0 {
+    width: 50%;
+    height: 400px;
+    margin: 90px 100px 50px 330px;
+    background-image: linear-gradient(#FFFFFF, #8490a3);
+    font-size: 9pt;
+}
+
+header#topo-wizard0 {
+    text-align: left;
+    font-size: 10pt;
+    height: 90px;
+}
+
+section#section-wizard0 {
+    display: block;
+    clear: top;
+    margin-top: 260px;
+}
+
+section#cadastro1 {
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+
+section#cadastro2 {
+    display: block;
+    float: right;
+    margin-right: 40px;
+}
+
+section#section-wizard1 {
+    display: block;
+    clear: top;
+    margin-top: 260px;
+}
+
+button#proximo {
+    float: right;
+    border-radius: 3px;
+    width: 100px;
+    height: 20px;
+    border: 1px #8490a3;
+    border-style: ridge;
+    background-image: linear-gradient(#8490a3, #ffffff, #8490a3 );
+    box-shadow: 5px 6px 8px #4d4f51;
+    font-size: 8pt;
+}
+
+button#concluir {
+    float: right;
+    border-radius: 3px;
+    width: 100px;
+    height: 20px;
+    border: 1px #8490a3;
+    border-style: ridge;
+    background-image: linear-gradient(#8490a3, #ffffff, #8490a3 );
+    box-shadow: 5px 6px 8px #4d4f51;
+    font-size: 8pt;
+}

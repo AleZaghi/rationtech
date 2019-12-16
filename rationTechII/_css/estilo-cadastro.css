@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(#FFFFFF, #c5d0e0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+}
+
+header {
+    border-bottom: solid #4d4f51;
+    height: 95px;
+}
+
+header#cabecalho img {
+    float: right;
+    max-width: 60px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+
+header#cabecalho p{
+    position: absolute;
+    display: table-cell;
+    top: 11%;
+    vertical-align: bottom;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+section#topo {
+    border-bottom: solid #4d4f51;
+    height: 100px;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+section#topo p {
+    position: absolute;
+    display: table-cell;
+    top: 37%;
+    vertical-align: bottom;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+section#topo label {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+section#topo input {
+    margin-left: 200px;
+
+}
+
+div#centro {
+    border-bottom: solid #4d4f51;
+    height: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+
+}
+
+section#centro-esq {
+    display: block;
+    float: left;
+    width: 200px;
+    border-right: #4d4f51;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+aside#centro-dir {
+    display: block;
+    float: right;
+    width: 230px;
+    height: 305px;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+div#base {
+    height: 150px;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+section#base-esq {
+    display: block;
+    float: left;
+    width: 290px;
+    border-right: #4d4f51;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+aside#base-dir {
+    display: block;
+    float: right;
+    width: 0px;
+    height: 200px;
+    padding-top: 50px;
+    padding-right: 0px;
+}
+
+fieldset#ingredientes-formula {
+    width: 200px;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+fieldset#estoque-min {
+    width: 200px;
+    height: 100px;
+    font-size: 9pt;
+}
+footer {
+    text-align: right;
+    position: relative;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+footer button {
+    border-color: #9A9CA0;
+    background-image: linear-gradient(#8490a3, #ffffff, #8490a3 );
+    box-shadow: 5px 6px 8px #4d4f51;
+    font-size: 10pt;
+}

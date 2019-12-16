@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    width: 90%;
+    height: 110%;
+    background-color: #a4ff77;
+    -webkit-background-size: cover;
+    margin: 0px;
+}
+
+p {
+    font-family: sans-serif Arial;
+}
+
+fieldset#form {
+    border: black;
+    width: 50%;
+    height: 500px;
+    background-color: #FBFFFE;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px 100px 0px 340px;
+    font-family: Arial, sans-serif;
+}
+
+header#topo {
+    text-align: center;
+    border-bottom: solid #9A9CA0;
+}
+
+section#acesso {
+    display: block;
+    float: left;
+    width: 280px;
+    height: 305px;
+    border-right: solid #9A9CA0;
+    padding: 90px 10px 0px 40px;
+}
+
+button#entrar {
+    border-radius: 3px;
+    width: 100px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background-color: #0066FF;
+    box-shadow: 5px 6px 8px #8490a3;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+}
+
+aside#cofirmar-cadastro {
+    display: block;
+    float: right;
+    width: 230px;
+    height: 305px;
+    padding: 7.5px 40px 0px 0px;
+}
+
+header#cadastre-se {
+    font-size: 9pt;
+}
+
+button#verificar-matricula {
+    border-radius: 3px;
+    width: 100px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background-color: #ff6633;
+    box-shadow: 5px 6px 8px #8490a3;
+}
+
+footer#base {
+    width: 100%;
+    height: auto;
+    position: relative ;
+    bottom: 0;
+    background-color: #a4ff77;
+}
+
+footer#base p {
+    margin-left: 90px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
